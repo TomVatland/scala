@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="colossustest_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170112232605"/>
+	<dependencies>
+		<module organisation="com.tumblr" name="colossus_2.10">
+			<revision name="0.8.1" status="release" pubdate="20160802233944" resolver="public" artresolver="public" homepage="https://github.com/tumblr/colossus" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="3573" time="210" location="/root/.ivy2/cache/com.tumblr/colossus_2.10/ivy-0.8.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.tumblr/colossus_2.10/ivy-0.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tumblr/colossus_2.10/0.8.1/colossus_2.10-0.8.1.pom"/>
+				<caller organisation="default" name="colossustest_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="0.8.1" rev-constraint-default="0.8.1" rev-constraint-dynamic="0.8.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="colossus_2.10" type="jar" ext="jar" status="successful" details="" size="1734300" time="727" location="/root/.ivy2/cache/com.tumblr/colossus_2.10/jars/colossus_2.10-0.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tumblr/colossus_2.10/0.8.1/colossus_2.10-0.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tumblr" name="colossus-metrics_2.10">
+			<revision name="0.8.1" status="release" pubdate="20160802233936" resolver="public" artresolver="public" homepage="https://github.com/tumblr/colossus" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="3416" time="237" location="/root/.ivy2/cache/com.tumblr/colossus-metrics_2.10/ivy-0.8.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.tumblr/colossus-metrics_2.10/ivy-0.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tumblr/colossus-metrics_2.10/0.8.1/colossus-metrics_2.10-0.8.1.pom"/>
+				<caller organisation="com.tumblr" name="colossus_2.10" conf="default, compile, runtime, master" rev="0.8.1" rev-constraint-default="0.8.1" rev-constraint-dynamic="0.8.1" callerrev="0.8.1"/>
+				<artifacts>
+					<artifact name="colossus-metrics_2.10" type="jar" ext="jar" status="successful" details="" size="289260" time="292" location="/root/.ivy2/cache/com.tumblr/colossus-metrics_2.10/jars/colossus-metrics_2.10-0.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tumblr/colossus-metrics_2.10/0.8.1/colossus-metrics_2.10-0.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.nscala-time" name="nscala-time_2.10">
+			<revision name="1.2.0" status="release" pubdate="20140525163214" resolver="public" artresolver="public" homepage="https://github.com/nscala-time/nscala-time" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="8">
+				<license name="Apache" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="successful" details="" size="2182" time="217" location="/root/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-1.2.0.xml" searched="true" original-local-location="/root/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-1.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.10/1.2.0/nscala-time_2.10-1.2.0.pom"/>
+				<caller organisation="com.tumblr" name="colossus-metrics_2.10" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.8.1"/>
+				<caller organisation="com.tumblr" name="colossus_2.10" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.8.1"/>
+				<artifacts>
+					<artifact name="nscala-time_2.10" type="jar" ext="jar" status="successful" details="" size="182894" time="213" location="/root/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/jars/nscala-time_2.10-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.10/1.2.0/nscala-time_2.10-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130816193125" resolver="public" artresolver="public" homepage="http://www.joda.org/joda-time/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="25165" time="143" location="/root/.ivy2/cache/joda-time/joda-time/ivy-2.3.xml" searched="true" original-local-location="/root/.ivy2/cache/joda-time/joda-time/ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="com.github.nscala-time" name="nscala-time_2.10" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="581571" time="159" location="/root/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20111027215117" resolver="public" artresolver="public" homepage="http://joda-convert.sourceforge.net" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="10629" time="116" location="/root/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="com.github.nscala-time" name="nscala-time_2.10" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="successful" details="" size="38460" time="105" location="/root/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-agent_2.10">
+			<revision name="2.3.9" status="release" pubdate="20150120071035" resolver="public" artresolver="public" homepage="http://akka.io/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2729" time="206" location="/root/.ivy2/cache/com.typesafe.akka/akka-agent_2.10/ivy-2.3.9.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-agent_2.10/ivy-2.3.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-agent_2.10/2.3.9/akka-agent_2.10-2.3.9.pom"/>
+				<caller organisation="com.tumblr" name="colossus-metrics_2.10" conf="compile, runtime" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="0.8.1"/>
+				<caller organisation="com.tumblr" name="colossus_2.10" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="0.8.1"/>
+				<artifacts>
+					<artifact name="akka-agent_2.10" type="jar" ext="jar" status="successful" details="" size="17210" time="203" location="/root/.ivy2/cache/com.typesafe.akka/akka-agent_2.10/jars/akka-agent_2.10-2.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-agent_2.10/2.3.9/akka-agent_2.10-2.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.10">
+			<revision name="0.7" status="release" pubdate="20121222043826" resolver="public" artresolver="public" homepage="http://nbronson.github.com/scala-stm/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="6">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="1422" time="110" location="/root/.ivy2/cache/org.scala-stm/scala-stm_2.10/ivy-0.7.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-stm/scala-stm_2.10/ivy-0.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="compile, runtime" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="scala-stm_2.10" type="jar" ext="jar" status="successful" details="" size="650514" time="165" location="/root/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.10">
+			<revision name="2.3.9" status="release" pubdate="20150120071021" resolver="public" artresolver="public" homepage="http://akka.io/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2344" time="112" location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/ivy-2.3.9.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/ivy-2.3.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.3.9/akka-testkit_2.10-2.3.9.pom"/>
+				<caller organisation="com.tumblr" name="colossus-metrics_2.10" conf="compile, runtime" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="0.8.1"/>
+				<caller organisation="com.tumblr" name="colossus_2.10" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="0.8.1"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.10" type="jar" ext="jar" status="successful" details="" size="247658" time="132" location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/jars/akka-testkit_2.10-2.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.3.9/akka-testkit_2.10-2.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.3.9" status="release" pubdate="20150120070859" resolver="public" artresolver="public" homepage="http://akka.io/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1924" time="125" location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.3.9.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.3.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.9/akka-actor_2.10-2.3.9.pom"/>
+				<caller organisation="com.tumblr" name="colossus-metrics_2.10" conf="compile, runtime" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="0.8.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="compile, runtime" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="compile, runtime" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="2.3.9"/>
+				<caller organisation="com.tumblr" name="colossus_2.10" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="0.8.1"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="successful" details="" size="2596474" time="435" location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.9/akka-actor_2.10-2.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502165416" resolver="public" artresolver="public" homepage="https://github.com/typesafehub/config" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1867" time="106" location="/root/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="successful" details="" size="219554" time="124" location="/root/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.6" status="release" pubdate="20150918113528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, compile(*), runtime, runtime(*), master(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="com.tumblr" name="colossus-metrics_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.8.1"/>
+				<caller organisation="org.scala-stm" name="scala-stm_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-agent_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="2.3.9"/>
+				<caller organisation="com.github.nscala-time" name="nscala-time_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="1.2.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="2.3.9"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="2.3.9"/>
+				<caller organisation="com.tumblr" name="colossus_2.10" conf="default, compile, runtime, master" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.8.1"/>
+				<caller organisation="default" name="colossustest_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
